@@ -1,0 +1,81 @@
+.panel {
+  width: 100%;
+  height: 40px;
+  background: #6C889D;
+}
+.tab {
+  margin: 0 0 0 15px;
+  display: inline-block;
+  color: rgb(184, 207, 228);
+  height: 100%;
+  line-height: 40px;
+  text-decoration: none;
+}
+.users {
+  margin: 100px;
+  display: flex;
+  border: 1px solid black;
+  background: rgb(235, 231, 231);
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+}
+.users-form {
+  display: flex;
+  flex-direction: column;
+}
+.users-form input{
+  margin: 5px; 
+}
+.users-item-info {
+  max-width: 390px;
+  min-width: 390px;
+}
+.users-item {
+  display: flex;
+  background: rgb(148, 170, 187);
+  margin: 15px;
+  border-radius: 4px;
+  min-width: 500px;
+  padding: 15px;
+  max-width: 500px;
+  /* word-wrap: break-word; */
+}
+.own-button {
+  display: block;
+  cursor: pointer;
+  background: #6C889D;
+  color: rgb(231, 231, 231);
+  padding: 5px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px 0 10px 0;
+}
+.own-button:hover {
+  color: white;
+}
+.own-button-inline {
+  cursor: pointer;
+  background: rgb(148, 170, 187);
+  border: 0;
+  padding: 30px;
+  float: right;
+  color: rgb(231, 231, 231);
+}
+.own-button-inline:hover {
+  color: white;
+}
+.home {
+  display: flex;
+  justify-content: center;
+}
+.home input {
+  margin: 25px;
+  width: 325px
+}
+.active-tab {
+  color: white;
+}
+.tab:hover {
+  cursor: pointer;
+}
